@@ -8,8 +8,8 @@
 
 // Dependencies
 var _ = require("underscore");
-var $ = require("jquery");
 var Backbone = require("backbone");
+var $ = Backbone.$ = require("jquery");
 var Backgrid = require("backgrid");
 
 /**
